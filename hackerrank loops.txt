@@ -1,0 +1,17 @@
+const vandn = (s) => {
+    vowels = ['a', 'e', 'o', 'u', 'i']
+    for (let i = 0; i < s.length; i++) {
+        let letter = s.charAt(i)
+        if (vowels.includes(letter)) {
+            console.log(letter);
+        }
+
+    }
+    for (let i = 0; i < s.length; i++) {
+        let letter = s.charAt(i)
+        if (!vowels.includes(letter)) {
+            console.log(letter);
+        }
+    }
+    return letter
+}
